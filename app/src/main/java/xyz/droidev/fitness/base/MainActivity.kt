@@ -1,12 +1,11 @@
-package xyz.droidev.fitness
+package xyz.droidev.fitness.base
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import xyz.droidev.fitness.R
 import xyz.droidev.fitness.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
